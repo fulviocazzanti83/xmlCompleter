@@ -44,7 +44,7 @@ func fillFile(originFile string, destinationFile string) {
 
 	fmt.Println(base64image)
 
-	xmlBase64 := fmt.Sprintf(`<data encoding="base64">%s</data>`, base64image)
+	xmlBase64 := fmt.Sprintf(`<data encoding="base64"><![CDATA[%s]]></data>`, base64image)
 	newXml := strings.Replace(contentString, `<data encoding="base64"></data>`, xmlBase64, -1)
 	fmt.Println(newXml)
 

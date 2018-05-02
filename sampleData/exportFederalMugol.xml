@@ -1,50 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--************************************************************-->
-<!--FILENAME:		KE39C7A7.xml				-->
+<!--FILENAME:		KE8977E3.xml				-->
 <!--DESCRIPTION:	XML Release document			-->
 <!--	 	 	with customizations.			-->
-<!--LAST MODIFIED:	4/27/2018				-->
+<!--LAST MODIFIED:	5/2/2018				-->
 <!--************************************************************-->
 <kfx:XMLRELEASE xmlns:kfx="http://www.kofax.com/dtd/">
   <kfx:KOFAXXML>
-    <kfx:BATCHCLASS ID="00000627" NAME="FR04 - FR Email Invoice - FP1">
+    <kfx:BATCHCLASS ID="00000636" NAME="FR01 - France Invoice">
       <kfx:DOCUMENTS>
-        <kfx:DOCUMENT DOCID="0003A81F" DOCUMENTCLASSNAME="FR_Invoice_FP1">
+        <kfx:DOCUMENT DOCID="0003AD71" DOCUMENTCLASSNAME="Invoice_EP4">
           <kfx:DOCUMENTDATA>
-            <kfx:DOCUMENTFIELD NAME="Location" VALUE="SFLDMIMS575" />
-            <kfx:DOCUMENTFIELD NAME="Operator" VALUE="FEDMOG\SFLD-Kofax" />
-            <kfx:DOCUMENTFIELD NAME="Date" VALUE="4/27/2018" />
-            <kfx:DOCUMENTFIELD NAME="Time" VALUE="7:36:53 AM" />
-            <kfx:DOCUMENTFIELD NAME="Barcode Number" VALUE="" />
+            <kfx:DOCUMENTFIELD NAME="Location" VALUE="PARIDMJM1H2:Sess 1" />
+            <kfx:DOCUMENTFIELD NAME="Operator" VALUE="Admin" />
+            <kfx:DOCUMENTFIELD NAME="Date" VALUE="5/2/2018" />
+            <kfx:DOCUMENTFIELD NAME="Time" VALUE="8:50:45 AM" />
+            <kfx:DOCUMENTFIELD NAME="Barcode Number" VALUE="FM20238751" />
             <kfx:DOCUMENTFIELD NAME="Priority" VALUE="5" />
-            <kfx:DOCUMENTFIELD NAME="Vendor Number" VALUE="4002224" />
-            <kfx:DOCUMENTFIELD NAME="Vendor Name" VALUE="DACHSER - GRAVELEAU" />
-            <kfx:DOCUMENTFIELD NAME="Vendor Address" VALUE="AVENUE DE L EUROPE" />
-            <kfx:DOCUMENTFIELD NAME="Vendor City" VALUE="LA VERRIE" />
-            <kfx:DOCUMENTFIELD NAME="Vendor State" VALUE="85" />
-            <kfx:DOCUMENTFIELD NAME="Vendor Postal Code" VALUE="85130" />
-            <kfx:DOCUMENTFIELD NAME="Vendor Country" VALUE="FR" />
-            <kfx:DOCUMENTFIELD NAME="Shipping Location FM" VALUE="Federal-Mogul Operations France - Garennes" />
+            <kfx:DOCUMENTFIELD NAME="Vendor Number" VALUE="3000024" />
+            <kfx:DOCUMENTFIELD NAME="Vendor Name" VALUE="F-M WIESBADEN GMBH (GLYGMY9)" />
+            <kfx:DOCUMENTFIELD NAME="Vendor Address" VALUE="STIELSTRASSE 11" />
+            <kfx:DOCUMENTFIELD NAME="Vendor City" VALUE="WIESBADEN" />
+            <kfx:DOCUMENTFIELD NAME="Vendor State" VALUE="06" />
+            <kfx:DOCUMENTFIELD NAME="Vendor Postal Code" VALUE="65201" />
+            <kfx:DOCUMENTFIELD NAME="Vendor Country" VALUE="DE" />
+            <kfx:DOCUMENTFIELD NAME="Shipping Locations FM Company Paying Locations" VALUE="Federal-Mogul Operations France - Orleans" />
             <kfx:DOCUMENTFIELD NAME="Document Type" VALUE="1" />
-            <kfx:DOCUMENTFIELD NAME="Invoice Number" VALUE="536/1997796" />
-            <kfx:DOCUMENTFIELD NAME="Invoice Date" VALUE="04/04/2018" />
-            <kfx:DOCUMENTFIELD NAME="Delivery Note Number" VALUE="2018-4-11" />
+            <kfx:DOCUMENTFIELD NAME="Invoice Number" VALUE="5981" />
+            <kfx:DOCUMENTFIELD NAME="Invoice Date" VALUE="04/30/2018" />
+            <kfx:DOCUMENTFIELD NAME="Delivery Note Number" VALUE="" />
             <kfx:DOCUMENTFIELD NAME="PO Number" VALUE="" />
             <kfx:DOCUMENTFIELD NAME="Currency" VALUE="EUR" />
-            <kfx:DOCUMENTFIELD NAME="Total" VALUE="106.49" />
-            <kfx:DOCUMENTFIELD NAME="Tax Amount" VALUE="17.75" />
+            <kfx:DOCUMENTFIELD NAME="Total" VALUE="20582.00" />
+            <kfx:DOCUMENTFIELD NAME="Tax Amount" VALUE="0.00" />
+            <kfx:DOCUMENTFIELD NAME="Tax Rate" VALUE="" />
+            <kfx:DOCUMENTFIELD NAME="Tax Code" VALUE="V3" />
             <kfx:DOCUMENTFIELD NAME="CBI" VALUE="" />
-            <kfx:DOCUMENTFIELD NAME="Subtotal" VALUE="88.74" />
+            <kfx:DOCUMENTFIELD NAME="Subtotal" VALUE="20582.00" />
             <kfx:DOCUMENTFIELD NAME="Extra Charges" VALUE="0.00" />
-            <kfx:DOCUMENTFIELD NAME="SAP System" VALUE="SAP FP1" />
-            <kfx:DOCUMENTFIELD NAME="Company Code" VALUE="3411" />
-            <kfx:DOCUMENTFIELD NAME="Plant" VALUE="9006" />
-            <kfx:DOCUMENTFIELD NAME="BusArea" VALUE="FRGA" />
-            <kfx:DOCUMENTFIELD NAME="Creation Date" VALUE="4/27/2018" />
-            <kfx:DOCUMENTFIELD NAME="Creations Time" VALUE="7:33:39 AM" />
+            <kfx:DOCUMENTFIELD NAME="PO Numbers" VALUE="" />
+            <kfx:DOCUMENTFIELD NAME="Line Number" VALUE="" />
+            <kfx:DOCUMENTFIELD NAME="DeliveryNotes" VALUE="" />
+            <kfx:DOCUMENTFIELD NAME="Material Code Part Number" VALUE="" />
+            <kfx:DOCUMENTFIELD NAME="Description" VALUE="" />
+            <kfx:DOCUMENTFIELD NAME="Quantity" VALUE="" />
+            <kfx:DOCUMENTFIELD NAME="Unit of Measure" VALUE="" />
+            <kfx:DOCUMENTFIELD NAME="Unit Price" VALUE="" />
+            <kfx:DOCUMENTFIELD NAME="Total Price" VALUE="" />
+            <kfx:DOCUMENTFIELD NAME="SAP System" VALUE="SAP EP4" />
+            <kfx:DOCUMENTFIELD NAME="Company Code" VALUE="3401" />
+            <kfx:DOCUMENTFIELD NAME="Plant" VALUE="9802" />
+            <kfx:DOCUMENTFIELD NAME="BusArea" VALUE="" />
+            <kfx:DOCUMENTFIELD NAME="Creation Date" VALUE="5/2/2018" />
+            <kfx:DOCUMENTFIELD NAME="Creation Time" VALUE="8:43:00 AM" />
           </kfx:DOCUMENTDATA>
           <kfx:PRIMARYFILES>
-            <kfx:PRIMARYFILE FILENAME="./sampleData/1.TIF" NUMBER="1" />
+            <kfx:PRIMARYFILE FILENAME="./sampleData/0003AD71.TIF" NUMBER="1" />
             <data encoding="base64"></data>
           </kfx:PRIMARYFILES>
           <kfx:SECONDARYFILES />
@@ -54,7 +65,7 @@
     </kfx:BATCHCLASS>
     <kfx:BATCHSTATUS>Complete</kfx:BATCHSTATUS>
   </kfx:KOFAXXML>
-  <FM:CUSTOMXML xmlns:FM="www.federalmogul.com" SiteID="1">
-    <FM:DocInfo SiteID="1" BatchID="385948" BatchName="FR04 - FR Email Invoice - FP1_4/27/2018_7:33:39 AM" />
+  <FM:CUSTOMXML xmlns:FM="www.federalmogul.com">
+    <FM:DocInfo SiteID="1" BatchID="387223" BatchName="FR01 - 3401_EVEREST_INTERCO_02/05/2018_14:02:58" />
   </FM:CUSTOMXML>
 </kfx:XMLRELEASE>
